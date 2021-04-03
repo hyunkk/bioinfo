@@ -24,7 +24,7 @@ BiocManager::install("clusterProfiler")
 BiocManager::install("enrichplot")
 BiocManager::install("ggplot2")
 BiocManager::install("org.Mm.eg.db")
-											 # -> if you use Human data, then install "org.Hs.eg.db"
+				    # -> if you use Human data, then install "org.Hs.eg.db"
 
 library(GEOquery)
 library(affy)
